@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!--Nos define la versión más reciente de HTML que se usa (HTML5)-->
+<html lang="es"> <!--Inicio del documento HTML donde especificamos el idioma principal (Español)-->
+<head> <!--Encabezado de la página-->
+    <meta charset="UTF-8"> <!--Define la codificación de la página, incluyendo la ñ y acentos-->
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuración de la página-->
+    <title>Práctica 1</title> <!--Título de la página en la sección de búsqueda-->
+    <link rel="stylesheet" href="css/main.css"> <!--Enlazamos con el CSS-->
+</head> <!--Encabezado de la página-->
+
+<body> <!--Aquí va todo el contenido que ve el usuario-->
+    <header>
+        <nav> <!--Barra de navegación-->
+            <ul class="nav-right-section"> <!--Lista desordenada-->
+                <li>
+                    <a href="https://mail.google.com/">Gmail</a> <!--Item de la lista con un hipervínculo (Gmail)-->
+                </li>
+                <li>
+                    <a href="https://www.google.com/imghp?hl=es&authuser=0&ogbl">Imágenes</a> <!--Item de la lista con un hipervínculo (Imágenes)-->
+                </li>
+                <li class="menú-ícono"> <!--Item de la lista con un hipervínculo (Menú)-->
+                    <a href="https://www.google.com.mx/intl/es/about/products"><img src="https://cdn.icon-icons.com/icons2/3396/PNG/32/o_grid_menu_icon_214235.png" alt=""></a></a>
+                </li>
+                <li> <!--Item de la lista con un hipervínculo (Foto de perfil)-->
+                    <a href="https://accounts.google.com/SignOutOptions?hl=es&continue=https://www.google.com/&ec=GBRAmgQ"><img src="https://lh3.googleusercontent.com/ogw/AKPQZvxEMCEhMuQ3oexEf8RnoMo4iyIpFdZ5zrba9Dhbs_U=s32-c-mo" alt=""></a></a>
+                </li>
+            </ul>
+        </nav>
+    </header> <!--Final del encabezado-->
+
+    <!-- Considerando el SEO, se usa main para lo que va después del header y  antes de footer -->
+    <main><!--Sección principal de la página-->
+        <!-- Sección del logo -->
+        <section class="main-logo"> <!--Contiene la imagen de Google-->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </section>
+        <!-- Sección del buscador -->
+        <section class="main-input"> <!--Sección del buscador de la página de Google-->
+            <div class="main-input-container"> <!--Es el botón de búsqueda-->
+                <!-- Logo de lupa -->
+                <span class="search-icon">
+
+                </span>
+                <!-- Es donde el usuario escribirá lo que desea buscar -->
+                <input type="text">
+                <!-- En el micrófono se usa anchor para simular el comportamiento de un enlace -->
+                <a class="micro-icon" href=""></a> <!--Ícono del micrófono-->
+            </div>
+        </section>
+        <!-- Sección de botones que aparecen en la parte inferior de la página principal de Google -->
+        <section class="main-buttons">
+            <div>
+                <button>Buscar con Google</button> <!--Botón "Buscar con Google"-->
+            </div>
+            <div>
+                <button>Voy a tener suerte</button> <!--Botón "Voy a tener suerte"-->
+            </div>
+        </section>
+        <!--Sección en la cual se muestra el lenguaje ofrecido por Google-->
+        <section class="letras">
+            <div>Ofrecido por Google en: 
+        <section class="letras-la">
+            Español (Latinoamérica)</div>
+        </section>
+    </main>
+
+    <!--Inicio del pie de página-->
+    <footer>
+        <!--Aquí va todo lo que el usuario ve en el pie de página-->
+        <div class="footer-container"> <!--Contenedor principal del pie de página-->
+            <section>
+                <p>México</p> <!--Sección superior del pie de página-->
+            </section>
+            <section>
+                <nav><!--Nueva barra de navegación que se dividirá en dos-->
+                    <ul class="inferior-1"> <!---Lista desordenada de la parte izquierda-->
+                        <li>
+                            <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a> <!--Item de la lista con un hipervínculo (Sobre Google)-->
+                        </li>
+                        <li>
+                            <a href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a> <!--Item de la lista con un hipervínculo (Publicidad)-->
+                        </li>
+                        <li>
+                            <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX">Negocios</a> <!--Item de la lista con un hipervínculo (Negocios)-->
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a> <!--Item de la lista con un hipervínculo (Cómo funciona la Búsqueda)-->
+                        </li>
+                    </ul> <!--Final de lista desordenada de la parte izquierda-->
+                    <ul class="inferior-2"> <!--Lista desordenada de la parte derecha-->
+                        <li>
+                            <a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a> <!--Item de la lista con un hipervínculo (Privacidad)-->
+                        </li>
+                        <li>
+                            <a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a> <!--Item de la lista con un hipervínculo (Condiciones)-->
+                        </li>
+                        <li>
+                            <a href="https://myactivity.google.com/product/search?utm_source=google&hl=es-MX&fg=1">Preferencias</a> <!--Item de la lista con un hipervínculo (Preferencias)-->
+                        </li>
+                    </ul> <!--Final de la lista desordenada de la parte derecha-->
+                </nav> <!--Final de la barra de navegación-->
+            </section>
+        </div>
+    </footer> <!--Final del pie de página-->
+
+</body>
+</html>
